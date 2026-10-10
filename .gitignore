@@ -1,0 +1,32 @@
+# IDEs
+.vscode
+.vs
+.idea
+*.sln
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+
+# Unreal Engine - archivos generados
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# Builds
+Build/
+!Build/Android/
+Build/Android/*
+!Build/Android/Java/
+!Build/Android/Res/
+
+# Archivos de distribución
+*.apk
+*.aab
+*.exe
+
+# Basura del sistema
+.DS_Store
+Thumbs.db
